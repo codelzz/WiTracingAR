@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174C64B729333FED004C16A1 /* ARSCNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C64B629333FED004C16A1 /* ARSCNManager.swift */; };
+		174C64B929334019004C16A1 /* ARSCNViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C64B829334019004C16A1 /* ARSCNViewUI.swift */; };
+		177343A82930109A0054289A /* ARViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343A72930109A0054289A /* ARViewUI.swift */; };
+		177343AD293016690054289A /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343AC293016690054289A /* ARManager.swift */; };
+		177343AF293017540054289A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343AE293017540054289A /* Constant.swift */; };
+		177343B3293093140054289A /* UETransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343B2293093140054289A /* UETransform.swift */; };
+		177343B62930AE3F0054289A /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343B52930AE3F0054289A /* BeaconManager.swift */; };
+		177343B82930FB360054289A /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343B72930FB360054289A /* Beacon.swift */; };
+		177343BA29316F670054289A /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343B929316F670054289A /* Coordinate.swift */; };
+		177343BD29319F250054289A /* BeaconListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343BC29319F250054289A /* BeaconListView.swift */; };
+		177343BF2931A0BF0054289A /* BeaconItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343BE2931A0BF0054289A /* BeaconItemView.swift */; };
+		177343C1293260E20054289A /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343C0293260E20054289A /* Signal.swift */; };
+		177343C42932FA0B0054289A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177343C32932FA0B0054289A /* SettingsView.swift */; };
+		178C57AA292F662D00B8D555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178C57A9292F662D00B8D555 /* AppDelegate.swift */; };
+		178C57AC292F662D00B8D555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178C57AB292F662D00B8D555 /* ContentView.swift */; };
+		178C57AE292F662D00B8D555 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 178C57AD292F662D00B8D555 /* Experience.rcproject */; };
+		178C57B0292F662F00B8D555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178C57AF292F662F00B8D555 /* Assets.xcassets */; };
+		178C57B3292F662F00B8D555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178C57B2292F662F00B8D555 /* Preview Assets.xcassets */; };
+		178C57C2292FB38000B8D555 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178C57C1292FB38000B8D555 /* Position.swift */; };
+		178C57C7292FBB5E00B8D555 /* UdpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178C57C6292FBB5E00B8D555 /* UdpClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174C64B629333FED004C16A1 /* ARSCNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNManager.swift; sourceTree = "<group>"; };
+		174C64B829334019004C16A1 /* ARSCNViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNViewUI.swift; sourceTree = "<group>"; };
+		177343A72930109A0054289A /* ARViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewUI.swift; sourceTree = "<group>"; };
+		177343AC293016690054289A /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		177343AE293017540054289A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		177343B2293093140054289A /* UETransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UETransform.swift; sourceTree = "<group>"; };
+		177343B52930AE3F0054289A /* BeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+		177343B72930FB360054289A /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		177343B929316F670054289A /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		177343BC29319F250054289A /* BeaconListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconListView.swift; sourceTree = "<group>"; };
+		177343BE2931A0BF0054289A /* BeaconItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconItemView.swift; sourceTree = "<group>"; };
+		177343C0293260E20054289A /* Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		177343C32932FA0B0054289A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		178C57A6292F662D00B8D555 /* WiTracingAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiTracingAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178C57A9292F662D00B8D555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		178C57AB292F662D00B8D555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		178C57AD292F662D00B8D555 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		178C57AF292F662F00B8D555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178C57B2292F662F00B8D555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		178C57C1292FB38000B8D555 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		178C57C6292FBB5E00B8D555 /* UdpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdpClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178C57A3292F662D00B8D555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177343A6293010860054289A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				177343C22932F9DC0054289A /* Settings */,
+				177343BB29319F180054289A /* Beacon */,
+				177343AB293016590054289A /* AR */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		177343AB293016590054289A /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				177343A72930109A0054289A /* ARViewUI.swift */,
+				174C64B829334019004C16A1 /* ARSCNViewUI.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		177343B42930AE210054289A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				177343B52930AE3F0054289A /* BeaconManager.swift */,
+				177343AC293016690054289A /* ARManager.swift */,
+				174C64B629333FED004C16A1 /* ARSCNManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		177343BB29319F180054289A /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				177343BC29319F250054289A /* BeaconListView.swift */,
+				177343BE2931A0BF0054289A /* BeaconItemView.swift */,
+			);
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		177343C22932F9DC0054289A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				177343C32932FA0B0054289A /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		178C579D292F662D00B8D555 = {
+			isa = PBXGroup;
+			children = (
+				178C57A8292F662D00B8D555 /* WiTracingAR */,
+				178C57A7292F662D00B8D555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178C57A7292F662D00B8D555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178C57A6292F662D00B8D555 /* WiTracingAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178C57A8292F662D00B8D555 /* WiTracingAR */ = {
+			isa = PBXGroup;
+			children = (
+				178C57A9292F662D00B8D555 /* AppDelegate.swift */,
+				178C57AB292F662D00B8D555 /* ContentView.swift */,
+				177343AE293017540054289A /* Constant.swift */,
+				178C57C0292FB28800B8D555 /* Model */,
+				177343B42930AE210054289A /* Manager */,
+				177343A6293010860054289A /* View */,
+				178C57C5292FBB5100B8D555 /* Network */,
+				178C57AD292F662D00B8D555 /* Experience.rcproject */,
+				178C57AF292F662F00B8D555 /* Assets.xcassets */,
+				178C57B1292F662F00B8D555 /* Preview Content */,
+			);
+			path = WiTracingAR;
+			sourceTree = "<group>";
+		};
+		178C57B1292F662F00B8D555 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				178C57B2292F662F00B8D555 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		178C57C0292FB28800B8D555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				178C57C1292FB38000B8D555 /* Position.swift */,
+				177343B2293093140054289A /* UETransform.swift */,
+				177343B72930FB360054289A /* Beacon.swift */,
+				177343B929316F670054289A /* Coordinate.swift */,
+				177343C0293260E20054289A /* Signal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		178C57C5292FBB5100B8D555 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				178C57C6292FBB5E00B8D555 /* UdpClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178C57A5292F662D00B8D555 /* WiTracingAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178C57B6292F662F00B8D555 /* Build configuration list for PBXNativeTarget "WiTracingAR" */;
+			buildPhases = (
+				178C57A2292F662D00B8D555 /* Sources */,
+				178C57A3292F662D00B8D555 /* Frameworks */,
+				178C57A4292F662D00B8D555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiTracingAR;
+			productName = WiTracingAR;
+			productReference = 178C57A6292F662D00B8D555 /* WiTracingAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178C579E292F662D00B8D555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					178C57A5292F662D00B8D555 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 178C57A1292F662D00B8D555 /* Build configuration list for PBXProject "WiTracingAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178C579D292F662D00B8D555;
+			productRefGroup = 178C57A7292F662D00B8D555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178C57A5292F662D00B8D555 /* WiTracingAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178C57A4292F662D00B8D555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178C57B3292F662F00B8D555 /* Preview Assets.xcassets in Resources */,
+				178C57B0292F662F00B8D555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178C57A2292F662D00B8D555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178C57AC292F662D00B8D555 /* ContentView.swift in Sources */,
+				177343C1293260E20054289A /* Signal.swift in Sources */,
+				174C64B929334019004C16A1 /* ARSCNViewUI.swift in Sources */,
+				178C57AA292F662D00B8D555 /* AppDelegate.swift in Sources */,
+				177343A82930109A0054289A /* ARViewUI.swift in Sources */,
+				177343BF2931A0BF0054289A /* BeaconItemView.swift in Sources */,
+				177343B62930AE3F0054289A /* BeaconManager.swift in Sources */,
+				178C57C2292FB38000B8D555 /* Position.swift in Sources */,
+				177343BD29319F250054289A /* BeaconListView.swift in Sources */,
+				178C57AE292F662D00B8D555 /* Experience.rcproject in Sources */,
+				177343C42932FA0B0054289A /* SettingsView.swift in Sources */,
+				177343AF293017540054289A /* Constant.swift in Sources */,
+				177343AD293016690054289A /* ARManager.swift in Sources */,
+				177343B3293093140054289A /* UETransform.swift in Sources */,
+				177343B82930FB360054289A /* Beacon.swift in Sources */,
+				178C57C7292FBB5E00B8D555 /* UdpClient.swift in Sources */,
+				174C64B729333FED004C16A1 /* ARSCNManager.swift in Sources */,
+				177343BA29316F670054289A /* Coordinate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		178C57B4292F662F00B8D555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178C57B5292F662F00B8D555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178C57B7292F662F00B8D555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WiTracingAR/Preview Content\"";
+				DEVELOPMENT_TEAM = PWU2WSWPP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For beacon scanning";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WiTracing.WiTracingAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178C57B8292F662F00B8D555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WiTracingAR/Preview Content\"";
+				DEVELOPMENT_TEAM = PWU2WSWPP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For beacon scanning";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WiTracing.WiTracingAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178C57A1292F662D00B8D555 /* Build configuration list for PBXProject "WiTracingAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178C57B4292F662F00B8D555 /* Debug */,
+				178C57B5292F662F00B8D555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178C57B6292F662F00B8D555 /* Build configuration list for PBXNativeTarget "WiTracingAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178C57B7292F662F00B8D555 /* Debug */,
+				178C57B8292F662F00B8D555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178C579E292F662D00B8D555 /* Project object */;
+}
