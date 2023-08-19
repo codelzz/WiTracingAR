@@ -16,7 +16,6 @@ class Constant {
     /// Network
     class Network {
         static let DefaultUdpHost:String = "192.168.31.110" // Win10 PC
-//        static let DefaultUdpHost:String = "192.168.31.100" // MacOS
         static let DefaultUdpPort:Int = 9000
     }
     

@@ -103,6 +103,7 @@ class ARSCNManager: NSObject, ARSCNViewDelegate, ARSessionDelegate, ObservableOb
         /// https://developer.apple.com/documentation/arkit/arsessiondelegate
         if UserDefaults.standard.bool(forKey: Constant.AppStorageKey.IsUdpEnabled) {
             let transform = UETransform(frame: frame, beacons: BeaconManager.shared.beacons)
+            print("[DBG] Transform:\(transform)")
             if let json = transform.toJSON() {
                 self.udpClient.send(msg: json)
             }

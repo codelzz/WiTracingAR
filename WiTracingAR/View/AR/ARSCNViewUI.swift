@@ -31,7 +31,7 @@ struct ARSCNViewUI: View {
         if isAREnabled {
             ARSCNViewContainer()
                 .onAppear(perform: self.onAppear )
-                .onDisappear(perform: self.onDisappear)
+//                .onDisappear(perform: self.onDisappear) // comments to allow AR capturing in all time.
         } else {
             Text("AR is disable.")
                 .foregroundColor(.secondary)

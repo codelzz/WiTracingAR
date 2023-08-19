@@ -62,7 +62,7 @@ class ARManager: NSObject, ARSessionDelegate, ObservableObject {
         }
         /// https://developer.apple.com/documentation/arkit/arsessiondelegate
         let transform = UETransform(frame: frame, beacons: BeaconManager.shared.beacons)
-//        print("[DBG] Transform:\(transform)")
+        print("[DBG] Transform:\(transform)")
         if let json = transform.toJSON() {
             self.udpClient.send(msg: json)
         }
